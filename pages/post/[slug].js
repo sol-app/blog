@@ -39,7 +39,7 @@ export default function PostPage({ frontmatter, content }) {
         </h1>        
         <div className='shadow-lg grid grid-cols-1' dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         <nav className='rounded-md w-full'>
-            <span><a href="/" className='text-blue-600 hover:text-blue-700'>Home</a></span>
+            <span><a href="/blog" className='text-blue-600 hover:text-blue-700'>Home</a></span>
             <span><b className='text-gray-500 mx-2'>/</b></span>
             <span><b className='text-gray-500'>{frontmatter.title}</b></span>
         </nav>
