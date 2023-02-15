@@ -17,7 +17,7 @@ export default function Home({ posts }) {
                             </svg>
                             <div className="space-y-2">
                             <p className="text-slate-500">Did you like to learn more about blockchain, smart contract and the web3?</p>
-                            <a href="/" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">Read Blog →</a>
+                            <a href="/blog" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">Read Blog →</a>
                             </div>
                         </div>
                     </div>
