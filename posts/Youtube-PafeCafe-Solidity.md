@@ -1,5 +1,5 @@
 ---
-title: 'Solidity in Farsi'
+title: 'Youtube - Solidity in Farsi'
 metaTitle: 'Mosi-sol @github - Blog'
 metaDesc: 'Solidity in farsi language - on youtube'
 date: '2023-02-16'
@@ -13,7 +13,7 @@ tags:
 
 [Pafe Cafe - youtube](https://www.youtube.com/@PAFECAFE/videos)
 
-# ARMSTRONG NUMBER
+# SOLIDITY IN FARSI
 Learning solidity in farsi - youtube @pafecafe 
 
 - lessons language: persian / farsi
