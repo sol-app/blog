@@ -51,16 +51,16 @@ export default function Home({ posts }) {
                 <h3 className="text-2xl font-bold mb-3 mt-8">Solidity</h3>
                 <h5 className="text-lg text-orange-600 font-bold mb-4 lg:mb-4 xl:mb-4">Solidity explain</h5>
                 <p className="text-orange-100 mb-6 pl-4">
-                Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state. <br />
-                Solidity is a curly-bracket language designed to target the Ethereum Virtual Machine (EVM). It is influenced by C++, Python and JavaScript. You can find more details about which languages Solidity has been inspired by in the language influences section. <br />
-                Solidity is statically typed, supports inheritance, libraries and complex user-defined types among other features. <br />
-                With Solidity you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets. <br />
-                When deploying contracts, you should use the latest released version of Solidity. Apart from exceptional cases, only the latest version receives security fixes. Furthermore, breaking changes as well as new features are introduced regularly. We currently use a 0.y.z version number to indicate this fast pace of change.
+                  Perhaps the most important human achievement is community! <br />
+                  But there is no clarity and transparency in any community like blockchain. <br />
+                  From transaction without intermediaries to fraud-free voting, all made possible through smart contracts on the blockchain platform. <br />
+                  In the blockchain community, democracy can be felt in the virtual community. <br />
+                  The most interesting point for me is this transparency, how about you? <hr />
                 </p>
 
-                <p className="font-bold mb-4 text-black">Resources</p>
+                <p className="font-bold mb-4 text-black">Reach me</p>
                 <p className="text-orange-100 mb-6 pl-4">
-                  refrence: <small>https://docs.soliditylang.org/en/v0.8.18/</small>
+                  at linktree: <small> https://linktr.ee/mosi.sol </small>
                 </p>
 
                 <hr />
