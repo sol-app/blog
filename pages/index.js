@@ -33,7 +33,7 @@ export default function Home({ posts }) {
 
               <div className="mb-12 lg:mb-0">
                 <div className="block rounded-lg shadow-lg px-6 py-12 lg:py-6 xl:py-12 md:px-12 lg:-mr-14 bg-blue-800">
-                <h2 className="text-2xl font-bold mb-3 text-white ">
+                <h2 className="text-2xl font-bold mb-3 text-black ">
                   Who am i?
                 </h2>
                 <p className="text-orange-100 mb-8 pl-4 capitalize">
@@ -58,8 +58,8 @@ export default function Home({ posts }) {
                   The most interesting point for me is this transparency, how about you? <hr />
                 </p>
 
-                <p className="font-bold mb-4 text-black">Reach me</p>
-                <p className="text-orange-100 mb-6 pl-4">
+                <p className="font-bold mb-4 text-white">Reach me</p>
+                <p className="text-orange-500 mb-6 pl-4">
                   at linktree: <small> https://linktr.ee/mosi.sol </small>
                 </p>
 
