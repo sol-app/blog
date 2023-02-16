@@ -11,7 +11,17 @@ export default function Layout({ children }) {
                 <Link href='/'>
                   <a><h3 className="block pr-2 lg:px-2 py-2 text-black hover:text-gray-700 mr-5 text-xl border border-gray-300 rounded-lg font-bold">SOL-BLOG</h3></a>
                 </Link>
-              </li>             
+              </li> 
+              <li className="nav-item">
+                <Link href='/resume'>
+                <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">Resume</a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href='/about'>
+                <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">About</a>
+                </Link>
+              </li>            
               <li className="nav-item">
                 <Link href='https://github.com/mosi-sol'>
                 <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">Github</a>
@@ -20,11 +30,6 @@ export default function Layout({ children }) {
               <li className="nav-item">
                 <Link href='https://www.linkedin.com/in/moslem-abbasi/'>
                 <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">Linkedin</a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href='/resume'>
-                <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">Resume</a>
                 </Link>
               </li>
             </ul>
