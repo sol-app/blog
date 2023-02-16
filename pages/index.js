@@ -48,8 +48,8 @@ export default function Home({ posts }) {
 
                 <hr />
 
-                <h3 className="text-2xl font-bold mb-3 mt-8">Solidity</h3>
-                <h5 className="text-lg text-orange-600 font-bold mb-4 lg:mb-4 xl:mb-4">Solidity explain</h5>
+                <h3 className="text-2xl font-bold mb-3 mt-8">My Vision</h3>
+                <h5 className="text-lg text-orange-600 font-bold mb-4 lg:mb-4 xl:mb-4">About blockchain</h5>
                 <p className="text-orange-100 mb-6 pl-4">
                   Perhaps the most important human achievement is community! <br />
                   But there is no clarity and transparency in any community like blockchain. <br />
