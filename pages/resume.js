@@ -6,7 +6,7 @@ export default function Home({ posts }) {
   return (
     <div className='container'>
         
-        <div className='w-full h-auto rounded-lg shadow-2xl border border-gray-300 mb-12'>
+        <div className='w-full h-auto rounded-lg shadow-xl hover:shadow-2xl border border-gray-300 mb-12'>
             
                 <div className="max-w-7xl mx-auto">
                     <div className="relative group">
@@ -30,10 +30,10 @@ export default function Home({ posts }) {
                 <title>Resume | Sol Blog</title>        
               </Head>
               
-                {/*  */}
+                {/* left */}
                 <div className='md:col-span-1 w-full mb-8 mx-2 rounded-lg'>
                 {/* bio  */}
-                    <div className="relative block overflow-hidden rounded-lg border-x border-gray-300 p-8 shadow-2xl">
+                    <div className="relative block overflow-hidden rounded-lg border-x border-gray-300 p-8 shadow-xl hover:shadow-2xl">
                         <span className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
 
                         <div className="justify-between sm:flex">
@@ -81,7 +81,7 @@ export default function Home({ posts }) {
                     </div>
 
                 {/* donation */}
-                <div className="my-8 max-w-7xl mx-auto border-x border-gray-300 shadow-2xl">
+                <div className="my-8 max-w-7xl mx-auto border-x border-gray-300 shadow-xl hover:shadow-2xl">
                         <div className="relative group">
                         <div className="absolute -inset-1 bg-gradient-to-r from-gray-200 to-gray-300 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                         <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
@@ -97,7 +97,7 @@ export default function Home({ posts }) {
                     </div>
 
                 {/* education */}
-                    <article className="mt-8 rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-2xl mb-8 border-x border-gray-300">
+                    <article className="mt-8 rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-xl hover:shadow-2xl mb-8 border-x border-gray-300">
                         <div className="flex items-start">
 
                             <div className="sm:ml-8">
@@ -189,9 +189,11 @@ export default function Home({ posts }) {
 
                 </div>
 
+                {/* right */}
+
                 <div className='md:col-span-2 w-full mb-8 mx-2'>
                 
-                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-2xl mb-8 border-x border-gray-300">
+                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-xl hover:shadow-2xl mb-8 border-x border-gray-300">
                         <div className="flex items-start">
 
                             <div className="sm:ml-8">
@@ -229,7 +231,7 @@ export default function Home({ posts }) {
                         </div>
                     </article>
                 
-                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-2xl mb-8 border-x border-gray-300">
+                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-xl hover:shadow-2xl mb-8 border-x border-gray-300">
                         <div className="flex items-start">
 
                             <div className="sm:ml-8">
@@ -321,7 +323,7 @@ export default function Home({ posts }) {
                         </div>
                     </article>
                 
-                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-2xl mb-8 border-x border-gray-300">
+                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-xl hover:shadow-2xl mb-8 border-x border-gray-300">
                         <div className="flex items-start">
 
                             <div className="sm:ml-8">
@@ -345,50 +347,53 @@ export default function Home({ posts }) {
                             </div>
                         </div>
                     </article>
-                
-                    <article className="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-2xl mb-8 border-x border-gray-300">
-                        <div className="flex items-start">
-
-                            <div className="sm:ml-8">
-                                <strong className="rounded border border-blue-500 bg-blue-500 px-3 py-1.5 text-[15px] font-medium text-white">
-                                    Volunteering
-                                </strong>
-                                
-                                <div className="mb-8">
-                                    <h3 className="mt-4 text-lg font-medium sm:text-xl">
-                                    Teaching Programming
-                                        <span className="text-sm font-light ml-12">in solidity + web3 technology</span>
-                                    </h3>
-
-                                    <p className="mt-1 text-sm text-gray-700 capitalize">
-                                        <span className="text-gray-500">Jan 2022 - Present</span><br />
-                                        &middot; how to learn/read/write code in solidity language. <br />
-                                        &middot; from scratch in farsi 
-                                    </p>
-
-                                    <div className="mt-4 sm:flex sm:items-center sm:gap-2">
-                                        <div className="flex items-center text-gray-500">
-                                            <p className="ml-1 text-xs font-medium text-purple-500">Free education goals:  </p>
-                                        </div>
-
-                                        <span className="hidden sm:block" aria-hidden="true">&middot;</span>
-
-                                        <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
-                                        free learn for everyone (@pafecafe in youtube + other media)
-                                        </p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </article>
 
                 </div>
                 
 
             {/*  */}
+            
 
           </div> 
+        
+        {/* last */}
+          <article className="rounded-xl w-full bg-white p-6 ring ring-indigo-50 sm:p-8 shadow-xl hover:shadow-2xl mb-8 border-x border-gray-300">
+                <div className="flex items-start md:px-[20%]">
+
+                    <div className="sm:ml-8">
+                        <strong className="rounded border border-blue-500 bg-blue-500 px-3 py-1.5 text-[15px] font-medium text-white">
+                            Volunteering
+                        </strong>
+                        
+                        <div className="mb-8">
+                            <h3 className="mt-4 text-lg font-medium sm:text-xl">
+                            Teaching Programming
+                                <span className="text-sm font-light ml-12">in solidity + web3 technology</span>
+                            </h3>
+
+                            <p className="mt-1 text-sm text-gray-700 capitalize">
+                                <span className="text-gray-500">Jan 2022 - Present</span><br />
+                                &middot; how to learn/read/write code in solidity language. <br />
+                                &middot; from scratch in farsi 
+                            </p>
+
+                            <div className="mt-4 sm:flex sm:items-center sm:gap-2">
+                                <div className="flex items-center text-gray-500">
+                                    <p className="ml-1 text-xs font-medium text-purple-500">Free education goals:  </p>
+                                </div>
+
+                                <span className="hidden sm:block" aria-hidden="true">&middot;</span>
+
+                                <p className="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
+                                free learn for everyone (@pafecafe in youtube + other media)
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
     </div>
   );
 }
