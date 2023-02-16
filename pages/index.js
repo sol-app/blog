@@ -70,36 +70,38 @@ export default function Home({ posts }) {
 
           </section>
  
+          <section className="">
+            <div class="md:masonry-2-col lg:masonry-3-col box-border mx-auto before:box-inherit after:box-inherit">
+              <h2 className='bg-orange-600 text-white text-center font-bold text-3xl w-full rounded border border-orange-500 shadow-2xl p-8'>
+                SOL BLOG
+                <p className='text-sm font-medium'>Solidity , Web3</p>
+              </h2>
+        
+              {posts.map(({ slug, frontmatter }) => (
+                  <div key={slug} className='break-inside p-8 my-6 bg-gray-100 rounded-lg shadow-xl hover:shadow-2xl border border-gray-300'>
+                      <Head>
+                        <title>Sol Blog</title>        
+                      </Head>
+                      
+                      <div>
+                        <Link href={`/post/${slug}`}><a>
+                          <h3 className='font-bold hover:text-blue-500 text-2xl'>{frontmatter.title} </h3>
+                        </a></Link> 
+                        <p className='text-gray-500'>{frontmatter.metaDesc}</p>
+                        <div className='flex justify-between'>
+                          <small className='text-orange-700'>{frontmatter.article}</small>
+                          <Link href={`/post/${slug}`}><a>
+                            <small className='font-light hover:text-blue-500 text-blue-800 text-sm'>Reade more </small>
+                          </a></Link> 
+                        </div>
+                      </div> 
 
-      <ul className='bg-white rounded-lg border border-gray-200 grid grid-cols lg:w-1/2 sm:w-full text-gray-900 shadow-2xl py-2'>
-      <li className='px-6 py-2 border-b border-gray-800 w-full bg-black flex justify-center mb-4 rounded-lg'>
-        <h1 className='text-3xl font-bold mb-4 text-white p-2'>SOL &nbsp; BLOG</h1>
-      </li>
-        {posts.map(({ slug, frontmatter }) => (
-            <div
-              key={slug}
-              className='' 
-            >
-                <Head>
-                  <title>Sol Blog</title>        
-                </Head>
-                <div className=''> {/* margin */}
-                  <Link href={`/post/${slug}`}>
-                    <a>
-                      <li className='px-6 py-2 border-b border-gray-200 w-full hover:text-white hover:bg-blue-700 flex justify-between capitalize'>
-                        <span className=''>
-                          <h4 className='text-lg font-bold'>{frontmatter.title}</h4>
-                          <p className='text-sm text-gray-400 hover:text-white'>{frontmatter.metaDesc}</p>
-                        </span>
-                        <span className='text-sm text-sky-400 hover:text-white'>{frontmatter.article}</span>
-                      </li>
-                    </a>
-                  </Link>
-                </div>  
-            </div> 
-        ))}
-        <li className='mb-4'></li>
-      </ul>
+                  </div> 
+                ))}
+
+              </div>
+            </section>
+
 
     </div>
   );
