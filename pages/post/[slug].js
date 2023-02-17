@@ -35,7 +35,7 @@ export default function PostPage({ frontmatter, content }) {
           <link rel="icon" href="/favicon.ico" />
           <meta name="description" content={frontmatter.metaDesc} key="desc"/>
           <meta property="og:title" content={frontmatter.title} />
-          <meta property="og:description" content=solidity - {frontmatter.article} />
+          <meta property="og:description" content={frontmatter.article} />
         </Head>
         <h1>
           <span className='text-2xl mr-4'>{frontmatter.title}</span>
