@@ -7,6 +7,7 @@ this my blog about solidity language (using for smartcontract) & web3 technology
 - my resume: [Linkedin](https://www.linkedin.com/in/moslem-abbasi/) | [ver 1](https://sol-app.github.io/resume/) | [ver 2](https://sol-app.github.io/blog/resume) 
 - i am teaching solidity & web3 in farsi on youtube [pafe cafe](https://youtube.com/pafecafe) 
 
+#
 
 ### use this blog for your project 
 ```node
