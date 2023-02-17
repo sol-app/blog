@@ -31,7 +31,8 @@ export default function PostPage({ frontmatter, content }) {
   return (   
     <div className='prose md:prose-lg lg:prose-xl prose-pre:bg-slate-800 prose-pre:text-zinc-100 px-4 grid grid-cols-1 mx-auto flex-1 w-full'> 
         <Head>
-          <title>Sol Blog | {frontmatter.title}</title>        
+          <title>Sol Blog | {frontmatter.title}</title>   
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <h1>
           <span className='text-2xl mr-4'>{frontmatter.title}</span>
