@@ -80,7 +80,8 @@ export default function Home({ posts }) {
               {posts.map(({ slug, frontmatter }) => (
                   <div key={slug} className='break-inside p-8 my-6 bg-gray-100 rounded-lg shadow-xl hover:shadow-2xl border border-gray-300'>
                       <Head>
-                        <title>Sol Blog</title>        
+                        <title>Sol Blog</title>   
+                        <link rel="icon" href="/favicon.ico" />
                       </Head>
                       
                       <div>
