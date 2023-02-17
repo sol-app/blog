@@ -1,5 +1,5 @@
 ---
-title: 'Cipher - Validation Method'
+title: 'Cipher - Caesar Method'
 metaTitle: 'Mosi-sol @github - Blog'
 metaDesc: 'Cipher caesar algorithm, in solidity smart contract'
 date: '2023-02-16'
