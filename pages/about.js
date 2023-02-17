@@ -100,7 +100,7 @@ export default function Home({ posts }) {
         </h1>
     </div>
 
-    <div>
+    <div class="bg-gray-300 my-3 mx-auto p-3">
       <p>use this blog for your project <code>npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
     </div>
 
