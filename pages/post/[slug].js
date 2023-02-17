@@ -33,7 +33,6 @@ export default function PostPage({ frontmatter, content }) {
         <Head>
           <title>Sol Blog | {frontmatter.title}</title>   
           <link rel="icon" href="/favicon.ico" />
-          <meta name="author" content={frontmatter.metaTitle}>
           <meta name="description" content={frontmatter.metaDesc} key="desc"/>
           <meta property="og:title" content={frontmatter.title} />
           <meta property="og:description" content={frontmatter.article} />
