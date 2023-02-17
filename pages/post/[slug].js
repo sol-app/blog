@@ -29,7 +29,7 @@ export async function getStaticProps({ params: { slug } }) {
 
 export default function PostPage({ frontmatter, content }) {
   return (   
-    <div className='prose md:prose-lg lg:prose-xl prose-pre:bg-slate-800 prose-pre:text-zinc-100 px-4 grid grid-cols-1 mx-auto flex-1 w-full'> 
+    <div className='prose md:prose-lg lg:prose-xl prose-pre:bg-slate-800 prose-pre:text-zinc-100 px-4 grid grid-cols-1 mx-auto flex-1 w-full mb-8'> 
         <Head>
           <title>Sol Blog | {frontmatter.title}</title>   
           <link rel="icon" href="/favicon.ico" />
@@ -45,6 +45,8 @@ export default function PostPage({ frontmatter, content }) {
             <span><b className='text-gray-500'>{frontmatter.title}</b></span>
         </nav>
       </div>
-    
+      
+      <p class="bg-gray-300 p-4 rounded-lg mx-auto my-4">use this blog for your project <code class="bg-gray-700 text-white p-2 rounded-lg">npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
+
   );
 }
