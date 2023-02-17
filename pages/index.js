@@ -84,6 +84,7 @@ export default function Home({ posts }) {
                       <Head>
                         <title>Sol Blog</title>   
                         <link rel="icon" href="/favicon.ico" />
+                        <meta name="google-site-verification" content="d9NgJAp48eq3zLlz0sW1VA0inhfTXsUpGiHaNyev-hM" />
                       </Head>
                       
                       <div>
