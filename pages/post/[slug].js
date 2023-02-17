@@ -45,7 +45,12 @@ export default function PostPage({ frontmatter, content }) {
             <span><b className='text-gray-500'>{frontmatter.title}</b></span>
         </nav>
 
-       <p class="bg-gray-300 p-4 rounded-lg mx-auto my-4">use this blog for your project <code class="bg-gray-700 text-white p-2 rounded-lg">npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
+       <p class="bg-gray-300 p-4 rounded-lg mx-auto my-4 text-sm font-base">
+         use this blog for your project 
+         <code class="bg-gray-700 text-white p-2 rounded-lg">
+           npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"
+          </code>
+        </p>
 
       </div>
       
