@@ -83,12 +83,12 @@ export default function Home({ posts }) {
                   <div key={slug} className='break-inside p-8 my-6 bg-gray-100 rounded-lg shadow-xl hover:shadow-2xl border border-gray-300'>
                       <Head>
                         <title>Sol Blog</title>   
-                        <meta name="description" content="Auther: mosi-sol @ github. blog of web3, blockchain, solidity, evm, programming.">
                         <link rel="icon" href="/favicon.ico" />
                         <meta name="google-site-verification" content="d9NgJAp48eq3zLlz0sW1VA0inhfTXsUpGiHaNyev-hM" />
                         <meta name="robots" content="all" />
                         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
                         <meta name="google" content="notranslate" key="notranslate" />
+                        <meta name="description" content="Auther: mosi-sol @ github. blog of web3, blockchain, solidity, evm, programming." />
                       </Head>
                       
                       <div>
