@@ -56,20 +56,20 @@ export default function Home({ posts }) {
 
                 
 
-                <h4 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/latest/cheatsheet.html" class="hover:underline"> Solidity Cheatsheet </a>
+                <h4 class="mt-4 text-base font-medium">
+                    - <a href="https://docs.soliditylang.org/en/latest/cheatsheet.html" class="hover:underline"> Solidity Cheatsheet </a>
                 </h4>
-                <h4 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/latest/grammar.html" class="hover:underline"> Solidity Language Grammar </a>
+                <h4 class="mt-4 text-base font-medium">
+                    - <a href="https://docs.soliditylang.org/en/latest/grammar.html" class="hover:underline"> Solidity Language Grammar </a>
                 </h4>
-                <h4 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/latest/resources.html" class="hover:underline"> Solidity Resources </a>
+                <h4 class="mt-4 text-base font-medium">
+                    - <a href="https://docs.soliditylang.org/en/latest/resources.html" class="hover:underline"> Solidity Resources </a>
                 </h4>
-                <h4 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/latest/genindex.html" class="hover:underline"> Solidity Keywords </a>
+                <h4 class="mt-4 text-base font-medium">
+                    - <a href="https://docs.soliditylang.org/en/latest/genindex.html" class="hover:underline"> Solidity Keywords </a>
                 </h4>
-                <h4 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/latest/bugs.html" class="hover:underline"> List of Known Bugs </a>
+                <h4 class="mt-4 text-base font-medium">
+                    - <a href="https://docs.soliditylang.org/en/latest/bugs.html" class="hover:underline"> List of Known Bugs </a>
                 </h4>
 
                 <p class="mt-1 text-sm text-gray-700">  </p>
