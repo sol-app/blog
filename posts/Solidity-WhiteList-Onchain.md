@@ -1,5 +1,5 @@
 ---
-title: 'Solidity - Whitelist on-chain'
+title: 'Whitelist on-chain'
 metaTitle: 'Mosi-sol @github - Blog'
 metaDesc: 'Solidity on-chain white list algorithms, in solidity smart contract'
 date: '2023-02-16'
@@ -28,3 +28,4 @@ tags:
 "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
 "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db"]
 ```
+- ! theses addresses for test in `remix ide` js-test servers.
