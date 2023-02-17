@@ -38,19 +38,12 @@ export default function PostPage({ frontmatter, content }) {
           <span className='text-2xl mr-4'>{frontmatter.title}</span>
           <small className='text-sm bg-blue-500 text-white rounded-md p-2 font-thin uppercase'>{frontmatter.article}</small>
         </h1>        
-        <div className='shadow-xl grid grid-cols-1' dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <div className='shadow-lg grid grid-cols-1' dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         <nav className='rounded-md w-full my-8'>
             <span><a href="/blog" className='text-blue-600 hover:text-blue-700'>Home</a></span>
             <span><b className='text-gray-500 mx-2'>/</b></span>
             <span><b className='text-gray-500'>{frontmatter.title}</b></span>
         </nav>
-
-       <p class="bg-gray-300 p-4 rounded-lg mx-auto mb-4 text-sm font-base">
-         use this blog for your project <br /> 
-         <pre class="bg-gray-700 text-white p-2 rounded-lg my-4"><code>
-           npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"
-          </code></pre>
-        </p>
 
       </div>
       
