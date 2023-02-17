@@ -1,6 +1,6 @@
 # SOL BLOG
 **mosi-sol blog**\
-this my blog about solidity language (using for smartcontract) & web3 technology.\
+this my blog about solidity language (using for smartcontract) & web3 technology.
 - my base github: [mosi sol](https://github.com/mosi-sol) 
 - my blog info: [sol blog](https://sol-app.github.io/blog) 
 - my resume: [ver 1](https://sol-app.github.io/resume/) | [ver2](https://sol-app.github.io/blog/resume) 
