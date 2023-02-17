@@ -27,7 +27,8 @@ export default function Home({ posts }) {
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:p-0'>
               <Head>
-                <title>Resume | Sol Blog</title>        
+                <title>Resume | Sol Blog</title>  
+                <link rel="icon" href="/favicon.ico" />
               </Head>
               
                 {/* left */}
