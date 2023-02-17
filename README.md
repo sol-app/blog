@@ -17,7 +17,7 @@ npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/s
 - fork this project
 - your repository -> setting -> pages -> active nextjs from actions
 - wait moments
-- go to => https://<your-account>.github.io/<your-repo>
+- go to => https://your-account.github.io/your-repo 
 - from your repo-> pages-> post-> [slug].js change line 43 `/blog` to `/repo-name`
 
 enjoy it~
