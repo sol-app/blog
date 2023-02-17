@@ -38,7 +38,10 @@ export default function Layout({ children }) {
         </nav>
       <main className='container mx-auto flex-1 w-full my-4'>{children}</main>
       <footer className='text-center lg:text-left mt-8 bg-gradient-to-b from-gray-200 to-white'>
-        <div className='text-black text-center p-4'>© 2017-2023 &nbsp;|&nbsp; Mosi-sol</div>
+        <div className='text-black text-center p-4'>© 2017-2023 &nbsp;|&nbsp; Mosi-sol</div>        
+        <div class="bg-gray-300 mt-3 mx-auto p-3 text-center text-sm font-sm">
+          <p>use this blog for your project <code class="bg-gray-700 text-white px-2">npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
+        </div>
       </footer>
     </div>
   );
