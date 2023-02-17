@@ -35,7 +35,6 @@ export default function PostPage({ frontmatter, content }) {
           <link rel="icon" href="/favicon.ico" />
           <meta name="author" content={frontmatter.metaTitle}>
           <meta name="description" content={frontmatter.metaDesc} key="desc"/>
-          <meta name="keywords" content={frontmatter.article}>
           <meta property="og:title" content={frontmatter.title} />
           <meta property="og:description" content={frontmatter.article} />
         </Head>
