@@ -4,7 +4,7 @@ metaTitle: 'Mosi-sol @github - Blog'
 metaDesc: 'Solidity on-chain white list algorithms, in solidity smart contract'
 date: '2023-02-16'
 socialImage: images/___.svg
-article: 'solidity'
+article: 'on-chain'
 tags:
   - 'algorithm'
   - 'solidity'
