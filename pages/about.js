@@ -43,7 +43,7 @@ export default function Home({ posts }) {
                 </strong>
 
                 <h3 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/v0.8.18/" class="hover:underline"> Solidity explain </a>
+                    <a href="https://docs.soliditylang.org/en/latest/index.html" class="hover:underline"> Solidity explain </a>
                 </h3>
 
                 <p class="mt-1 text-sm text-gray-700">
@@ -56,127 +56,23 @@ export default function Home({ posts }) {
 
                 
 
-                <h3 class="mt-4 text-lg font-medium sm:text-xl">
+                <h4 class="mt-4 text-lg font-medium sm:text-xl">
                     <a href="https://docs.soliditylang.org/en/latest/cheatsheet.html" class="hover:underline"> Solidity Cheatsheet </a>
-                </h3>
+                </h4>
+                <h4 class="mt-4 text-lg font-medium sm:text-xl">
+                    <a href="https://docs.soliditylang.org/en/latest/grammar.html" class="hover:underline"> Solidity Language Grammar </a>
+                </h4>
+                <h4 class="mt-4 text-lg font-medium sm:text-xl">
+                    <a href="https://docs.soliditylang.org/en/latest/resources.html" class="hover:underline"> Solidity Resources </a>
+                </h4>
+                <h4 class="mt-4 text-lg font-medium sm:text-xl">
+                    <a href="https://docs.soliditylang.org/en/latest/genindex.html" class="hover:underline"> Solidity Keywords </a>
+                </h4>
+                <h4 class="mt-4 text-lg font-medium sm:text-xl">
+                    <a href="https://docs.soliditylang.org/en/latest/bugs.html" class="hover:underline"> List of Known Bugs </a>
+                </h4>
 
-                <p class="mt-1 text-sm text-gray-700">
-
-                    <section id="cheatsheet">
-                    <h1>Cheatsheet<a class="headerlink" href="#cheatsheet" title="Permalink to this heading"></a></h1>
-                    <section id="order-of-precedence-of-operators">
-                    <span id="index-0"></span><h2>Order of Precedence of Operators<a class="headerlink" href="#order-of-precedence-of-operators" title="Permalink to this heading"></a></h2>
-                    <p>The following is the order of precedence for operators, listed in order of evaluation.</p>
-                    <table class="docutils align-default">
-                    <colgroup>
-                    <col style="width: 13%" />
-                    <col style="width: 40%" />
-                    <col style="width: 47%" />
-                    </colgroup>
-                    <thead>
-                    <tr class="row-odd"><th class="head"><p>Precedence</p></th>
-                    <th class="head"><p>Description</p></th>
-                    <th class="head"><p>Operator</p></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="row-even"><td rowspan="6"><p><em>1</em></p></td>
-                    <td><p>Postfix increment and decrement</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">++</span></code>, <code class="docutils literal notranslate"><span class="pre">--</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p>New expression</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">new</span> <span class="pre">&lt;typename&gt;</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p>Array subscripting</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&lt;array&gt;[&lt;index&gt;]</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p>Member access</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&lt;object&gt;.&lt;member&gt;</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p>Function-like call</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&lt;func&gt;(&lt;args...&gt;)</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p>Parentheses</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">(&lt;statement&gt;)</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td rowspan="5"><p><em>2</em></p></td>
-                    <td><p>Prefix increment and decrement</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">++</span></code>, <code class="docutils literal notranslate"><span class="pre">--</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p>Unary minus</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p>Unary operations</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">delete</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p>Logical NOT</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">!</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p>Bitwise NOT</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">~</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p><em>3</em></p></td>
-                    <td><p>Exponentiation</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">**</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p><em>4</em></p></td>
-                    <td><p>Multiplication, division and modulo</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">/</span></code>, <code class="docutils literal notranslate"><span class="pre">%</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p><em>5</em></p></td>
-                    <td><p>Addition and subtraction</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">-</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p><em>6</em></p></td>
-                    <td><p>Bitwise shift operators</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&lt;&lt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&gt;&gt;</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p><em>7</em></p></td>
-                    <td><p>Bitwise AND</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&amp;</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p><em>8</em></p></td>
-                    <td><p>Bitwise XOR</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">^</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p><em>9</em></p></td>
-                    <td><p>Bitwise OR</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">|</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p><em>10</em></p></td>
-                    <td><p>Inequality operators</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&lt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;=</span></code>, <code class="docutils literal notranslate"><span class="pre">&gt;=</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p><em>11</em></p></td>
-                    <td><p>Equality operators</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">==</span></code>, <code class="docutils literal notranslate"><span class="pre">!=</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p><em>12</em></p></td>
-                    <td><p>Logical AND</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&amp;&amp;</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p><em>13</em></p></td>
-                    <td><p>Logical OR</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">||</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td rowspan="2"><p><em>14</em></p></td>
-                    <td><p>Ternary operator</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">&lt;conditional&gt;</span> <span class="pre">?</span> <span class="pre">&lt;if-true&gt;</span> <span class="pre">:</span> <span class="pre">&lt;if-false&gt;</span></code></p></td>
-                    </tr>
-                    <tr class="row-odd"><td><p>Assignment operators</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">=</span></code>, <code class="docutils literal notranslate"><span class="pre">|=</span></code>, <code class="docutils literal notranslate"><span class="pre">^=</span></code>, <code class="docutils literal notranslate"><span class="pre">&amp;=</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;&lt;=</span></code>,
-                    <code class="docutils literal notranslate"><span class="pre">&gt;&gt;=</span></code>, <code class="docutils literal notranslate"><span class="pre">+=</span></code>, <code class="docutils literal notranslate"><span class="pre">-=</span></code>, <code class="docutils literal notranslate"><span class="pre">*=</span></code>, <code class="docutils literal notranslate"><span class="pre">/=</span></code>,
-                    <code class="docutils literal notranslate"><span class="pre">%=</span></code></p></td>
-                    </tr>
-                    <tr class="row-even"><td><p><em>15</em></p></td>
-                    <td><p>Comma operator</p></td>
-                    <td><p><code class="docutils literal notranslate"><span class="pre">,</span></code></p></td>
-                    </tr>
-                    </tbody>
-                    </table>
-                    </section>
-
-                </p>
+                <p class="mt-1 text-sm text-gray-700">  </p>
 
                 
 
