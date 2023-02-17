@@ -36,7 +36,7 @@ export default function PostPage({ frontmatter, content }) {
           <meta name="description" content={frontmatter.metaDesc} key="desc"/>
           <meta property="og:title" content={frontmatter.title} />
           <meta property="og:description" content={frontmatter.article} />
-          <meta name="keywords" content={frontmatter.tags}>
+          <meta name="keywords" content={frontmatter.article}>
         </Head>
         <h1>
           <span className='text-2xl mr-4'>{frontmatter.title}</span>
