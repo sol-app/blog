@@ -100,7 +100,9 @@ export default function Home({ posts }) {
         </h1>
     </div>
 
-    
+    <div>
+      <p>use this blog for your project <code>npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
+    </div>
 
     {/* footer message */}
     <div class="fixed inset-x-0 bottom-12 px-4 pb-3">
