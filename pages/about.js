@@ -70,15 +70,7 @@ export default function Home({ posts }) {
             </div>
         </article>
 
-        <h1 class="bg-gradient-to-r from-red-300 via-indigo-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Solidity #101
-            <span class="sm:block text-lg"> Solidity smart contract , Web3 </span>
-        </h1>
-    </div>
-
-    {/* page content */}
-    <div class="flex md:justify-between my-8">
-        <article class="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8">
+         <article class="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8">
 
                 <div class="sm:ml-8">
                 <strong class="rounded border border-indigo-500 bg-indigo-500 px-3 py-1.5 text-[15px] font-medium text-white">
@@ -136,6 +128,8 @@ export default function Home({ posts }) {
             <span class="sm:block text-lg"> Solidity smart contract , Web3 </span>
         </h1>
     </div>
+
+    
 
     {/* footer message */}
     <div class="fixed inset-x-0 bottom-12 px-4 pb-3">
