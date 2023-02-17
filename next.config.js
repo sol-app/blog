@@ -1,15 +1,15 @@
 /*module.exports = {
   reactStrictMode: true,
   i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
+    locales: ['en-US', 'fr', 'nl-NL'],
+    defaultLocale: 'en-US',
   },
 }*/
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+    locales: ["en-US"],
+    defaultLocale: "en-US",
   },
   reactStrictMode: true,
 }
