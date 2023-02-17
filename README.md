@@ -21,5 +21,9 @@ npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/s
 - go to => https://your-account.github.io/your-repo 
 - from your repo-> pages-> post-> [slug].js change line 43 `/blog` to `/repo-name`
 - change blog posts : go to repo-name -> posts -> delete all and replace your content. (look at one of that before deleting for more info about the structure)
+\
+- **importants**
+- - delete : `robots.txt` - `sitemap.xml`
+- - remove : `line 87` from `pages -> index.js`
 
 enjoy it~
