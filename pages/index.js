@@ -27,6 +27,11 @@ export async function getStaticProps() {
 
 export default function Home({ posts }) {
   return (
+    
+    <div class="bg-gray-300 my-3 mx-auto p-3 text-center rounded-lg bottom-12 fixed inset-x-0">
+      <p>use this blog for your project <code class="bg-gray-700 text-white p-2 rounded-lg">npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
+    </div>
+    
     <div className='flex justify-center flex justify-between'> 
       
         <section className="mb-32 grid grid-cols lg:w-1/2 sm:w-full px-4 py-4 prose">
@@ -106,8 +111,5 @@ export default function Home({ posts }) {
 
     </div>
     
-    <div class="bg-gray-300 my-3 mx-auto p-3 text-center rounded-lg">
-      <p>use this blog for your project <code class="bg-gray-700 text-white p-2 rounded-lg">npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"</code></p>
-    </div>
   );
 }
