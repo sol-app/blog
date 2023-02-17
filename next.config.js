@@ -1,10 +1,6 @@
-/*module.exports = {
-  reactStrictMode: true,
-  i18n: {
-    locales: ['en-US', 'fr', 'nl-NL'],
-    defaultLocale: 'en-US',
-  },
-}*/
+/*
+npm i i18n-routing i18n-app
+*/
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
