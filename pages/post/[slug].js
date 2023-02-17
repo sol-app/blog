@@ -46,7 +46,7 @@ export default function PostPage({ frontmatter, content }) {
         </nav>
 
        <p class="bg-gray-300 p-4 rounded-lg mx-auto my-4 text-sm font-base">
-         use this blog for your project 
+         use this blog for your project <br /> 
          <code class="bg-gray-700 text-white p-2 rounded-lg">
            npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"
           </code>
