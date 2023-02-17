@@ -8,6 +8,7 @@ export default function Home({ posts }) {
     {/* wrap start */}
     <Head>
         <title>MOSI-SOL ABOUT</title>
+        <link rel="icon" href="/favicon.ico" />
     </Head>
     
     <section class="w-full mx-auto text-center bg-gray-900 mb-8 rounded-lg py-8 shadow-2xl hover:shadow-xl">
