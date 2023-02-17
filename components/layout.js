@@ -1,9 +1,7 @@
 import Link from 'next/link';
-import Head from 'next/head';
 
 export default function Layout({ children }) {
   return (
-    {/*<Head><html lang="en"></Head>*/}
     <div className='flex flex-col min-h-screen'>
       <nav className="navbar navbar-expand-lg shadow-xl py-2 bg-gray-50 relative flex items-center w-full justify-between mb-8">
           <div className="px-6">    
