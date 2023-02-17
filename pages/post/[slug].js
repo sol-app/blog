@@ -33,7 +33,7 @@ export default function PostPage({ frontmatter, content }) {
         <Head>
           <title>Sol Blog | {frontmatter.title}</title>   
           <link rel="icon" href="/favicon.ico" />
-            <meta name="description" content="{frontmatter.title}"/>
+            <meta name="description" content=`${frontmatter.title}`/>
         </Head>
         <h1>
           <span className='text-2xl mr-4'>{frontmatter.title}</span>
