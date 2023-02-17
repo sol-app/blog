@@ -7,6 +7,21 @@ const nextConfig = {
     locales: ["en-US"],
     defaultLocale: "en-US",
   },*/
+  /*
+  async headers() {
+    return [
+      {
+        source: '/',
+        headers: [
+          {
+            key: 'x-custom-header',
+            value: 'Solidity in farsi',
+          },
+        ],
+      },
+    ]
+  },
+  */
   reactStrictMode: true,
 }
 
