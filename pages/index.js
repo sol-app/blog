@@ -88,7 +88,7 @@ export default function Home({ posts }) {
                         <meta name="robots" content="all" />
                         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
                         <meta name="google" content="notranslate" key="notranslate" />
-                        <meta name="description" content="Auther: mosi-sol @ github. Solidity blog: web3, blockchain, solidity, evm, programming." />
+                        <meta name="description" content= "Auther: mosi-sol @ github. Solidity blog: web3, blockchain, solidity, evm, programming." />
                       </Head>
                       
                       <div>
