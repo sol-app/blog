@@ -72,6 +72,9 @@ export default function Home({ posts }) {
                 <h4 class="mt-4 text-base font-medium">
                     - <a href="https://docs.soliditylang.org/en/latest/bugs.html" class="hover:underline"> List of Known Bugs </a>
                 </h4>
+                <h4 class="mt-4 text-base font-medium">
+                    - <a href="https://eips.ethereum.org/erc" class="hover:underline"> Ethereum standards (eip | erc) </a>
+                </h4>
 
                 <p class="mt-1 text-sm text-gray-700">  </p>
 
