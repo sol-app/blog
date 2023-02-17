@@ -70,58 +70,6 @@ export default function Home({ posts }) {
             </div>
         </article>
 
-         <article class="rounded-xl bg-white p-6 ring ring-indigo-50 sm:p-8">
-
-                <div class="sm:ml-8">
-                <strong class="rounded border border-indigo-500 bg-indigo-500 px-3 py-1.5 text-[15px] font-medium text-white">
-                    Language Description
-                </strong>
-
-                <h3 class="mt-4 text-lg font-medium sm:text-xl">
-                    <a href="https://docs.soliditylang.org/en/latest/index.html" class="hover:underline"> Solidity explain </a>
-                </h3>
-
-                <p class="mt-1 text-sm text-gray-700">
-                  - Layout of a Solidity Source File <br / >
-                  SPDX License Identifier - Pragmas - Importing other Source Files - Comments  <br / >
-
-                  Structure of a Contract  <br / >
-                  State Variables - Functions - Function Modifiers - Events - Errors - Struct Types - Enum Types  <br / >
-
-                  Types  <br / >
-                  Value Types - Reference Types - Mapping Types - Operators - Conversions between Elementary Types - Conversions between Literals and Elementary Types  <br / >
-
-                  Units and Globally Available Variables  <br / >
-                  Ether Units - Time Units - Special Variables and Functions -  Reserved Keywords  <br / >
-
-                  Expressions and Control Structures  <br / >
-                  Control Structures - Function Calls - Creating Contracts via new - Order of Evaluation of Expressions - Assignment - Scoping and Declarations - Checked or Unchecked Arithmetic - Error handling: Assert, Require, Revert and Exceptions  <br / >
-
-                  Contracts  <br / >
-                  Creating Contracts - Visibility and Getters -  Function Modifiers - Constant and Immutable State Variables -  Functions - Events - Errors and the Revert Statement - Inheritance - Abstract Contracts - Interfaces - Libraries - Using For  <br / >
-
-                  Inline Assembly  <br / >
-                  Access to External Variables, Functions and Libraries - Things to Avoid - Conventions in Solidity  <br / >
-
-                  Cheatsheet  <br / >
-                  Order of Precedence of Operators - Global Variables - Function Visibility Specifiers - Modifiers - Language Grammar
-                 </p>
-
-                <div class="mt-4 sm:flex sm:items-center sm:gap-2">
-                    <div class="flex items-center text-gray-500">
-                    <p class="ml-1 text-xs font-medium">2017-2023</p>
-                    </div>
-
-                    <span class="hidden sm:block" aria-hidden="true">&middot;</span>
-
-                    <p class="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
-                    <a href="https://github.com/mosi-sol" class="underline hover:text-gray-700"> github </a> - 
-                    <a href="https://www.linkedin.com/in/moslem-abbasi/" class="underline hover:text-gray-700"> linkedin </a>
-                    </p>
-                </div>
-                </div>
-            </div>
-        </article>
 
         <h1 class="bg-gradient-to-r from-red-300 via-indigo-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
             Solidity #101
