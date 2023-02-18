@@ -6,6 +6,14 @@ import Head from 'next/head';
 export default function Home({ posts }) {
     return (
         
+        <Head>
+          <title>Sol Blog | ERC</title>   
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="description" content="solidity standards: eip, erc. erc165, erc20, erc721, erc1155." key="desc"/>
+          <meta property="og:title" content="solidity standards: erc, eip" />
+          <meta property="og:description" content=""solidity standards: erc, eip"" />
+        </Head>
+        
         <section className=''>
         
         <div className="w-full mx-auto md:prose-lg px-8 mb-1">
