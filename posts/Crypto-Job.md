@@ -31,5 +31,5 @@ tags:
 Did you need blog as a portfolio? [Nextjs Blog - Sol App](https://github.com/sol-app/blog#use-this-blog-for-your-project) 
 
 ## LEARNING SOLIDITY + WEB3
-[Solidity | mosi-sol](https://github.com/mosi-sol) 
-[Web3 | sol-app](https://github.com/sol-app) 
+- [Solidity | mosi-sol](https://github.com/mosi-sol) 
+- [Web3 | sol-app](https://github.com/sol-app) 
