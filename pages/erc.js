@@ -11,7 +11,7 @@ export default function Home({ posts }) {
         <Head>
           <title>Sol Blog | ERC</title>   
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="solidity standards: eip, erc. erc165, erc20, erc721, erc1155." key="desc"/>
+          <meta name="description" content="solidity standards: eip, erc. erc165, erc20, erc721, erc1155." key="desc" />
           <meta property="og:title" content="solidity standards: erc, eip" />
           <meta property="og:description" content="solidity standards: erc, eip" />
         </Head>
