@@ -5,6 +5,8 @@ import Head from 'next/head';
 
 export default function Home({ posts }) {
     return (
+        
+        <section className=''>
                 
         <Head>
           <title>Sol Blog | ERC</title>   
@@ -13,8 +15,6 @@ export default function Home({ posts }) {
           <meta property="og:title" content="solidity standards: erc, eip" />
           <meta property="og:description" content="solidity standards: erc, eip" />
         </Head>
-        
-        <section className=''>
         
         <div className="w-full mx-auto md:prose-lg px-8 mb-1">
 
