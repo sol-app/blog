@@ -21,7 +21,12 @@ export default function Layout({ children }) {
                 <Link href='/about'>
                 <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">About</a>
                 </Link>
-              </li>            
+              </li>     
+              <li className="nav-item">
+                <Link href='/erc'>
+                <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">ERC</a>
+                </Link>
+              </li>        
               <li className="nav-item">
                 <Link href='https://github.com/mosi-sol'>
                 <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">Github</a>
