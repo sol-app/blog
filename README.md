@@ -23,7 +23,7 @@ npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/s
 - change blog posts : go to repo-name -> posts -> delete all and replace your content. (look at one of that before deleting for more info about the structure)
 
 ### importants
-- - delete : `robots.txt` - `sitemap.xml`
+- - delete : `robots.txt` - `sitemap.xml` - `google00000000.html`
 - - remove : `line 87` from `pages -> index.js`
 
 enjoy it~
