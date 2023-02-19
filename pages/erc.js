@@ -18,7 +18,7 @@ export default function Home({ posts }) {
         
         <div className="w-full mx-auto md:prose-lg px-8 mb-1">
 
-            <div className='mx-auto w-full mb-12 rounded bg-gradient-to-t from-gray-300 to-black font-bold text-2xl p-2 shadow-2xl text-center'>
+            <div className='mx-auto w-full mb-12 rounded bg-gradient-to-t from-blue-500 to-black font-bold text-2xl p-2 shadow-2xl text-center'>
             <h2 className='backdrop-blur-sm bg-white/30'>Ethereum Improvement Proposals : <span className='text-white'>EIP</span></h2>
             <p className='text-sky-500'>ERC 165 &middot; ERC 20 &middot; ERC 721 &middot; ERC 1155</p>
             </div>
