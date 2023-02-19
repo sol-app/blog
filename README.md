@@ -15,12 +15,12 @@ this my blog about solidity language (using for smartcontract) & web3 technology
 npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/mosi-arch/blog-src"
 ```
 
+
+### how to install from this repo?
 - or this repo:
 ```node
 npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"
 ```
-
-### how to install?
 - fork this project
 - your repository -> setting -> pages -> active nextjs from actions
 - wait moments
