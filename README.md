@@ -10,6 +10,11 @@ this my blog about solidity language (using for smartcontract) & web3 technology
 #
 
 ### use this blog for your project 
+- clean source:
+```node
+npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/mosi-arch/blog-src"
+```
+- or this repo:
 ```node
 npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"
 ```
