@@ -9,8 +9,11 @@ function MyApp({ Component, pageProps }) {
       <NextScript async src="https://www.googletagmanager.com/gtag/js?id=G-3HXER7XDKH"></NextScript>
       <NextScript>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
+        function gtag(){ 
+          dataLayer.push(NextScript) 
+        }
         gtag('js', new Date());
+
         gtag('config', 'G-3HXER7XDKH');
       </NextScript>
 
