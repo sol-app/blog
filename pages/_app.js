@@ -6,15 +6,15 @@ function MyApp({ Component, pageProps }) {
   return (
     
     <>
-      <NextScript async src="https://www.googletagmanager.com/gtag/js?id=G-3HXER7XDKH"></NextScript>
-      <NextScript>
+      <NextScript strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-3HXER7XDKH"></NextScript>
+      <NextScript id='google-analytics' strategy='afterInteractive'>
+      {`
         window.dataLayer = window.dataLayer || [];
-        function gtag(){ 
-          dataLayer.push(arguments) 
-        }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-3HXER7XDKH');
+        `}
       </NextScript>
 
       <Layout>
