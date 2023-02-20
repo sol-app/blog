@@ -5,22 +5,20 @@ import NextScript from 'next/script';
 function MyApp({ Component, pageProps }) {
   return (
     
-    {process.env.NODE_ENV === 'production' && (
-        <>
-          <NextScript async src="https://www.googletagmanager.com/gtag/js?id=G-3HXER7XDKH"></NextScript>
-          <NextScript>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};{'}'}
-            gtag('js', new Date());
+    <>
+      <NextScript async src="https://www.googletagmanager.com/gtag/js?id=G-3HXER7XDKH"></NextScript><NextScript>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
 
-              gtag('config', 'G-3HXER7XDKH');
-            </NextScript>
-        </>
+        gtag('config', 'G-3HXER7XDKH');
+      </NextScript>
       )}
-    
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   );
 }
 
