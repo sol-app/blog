@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <NextScript>
         window.dataLayer = window.dataLayer || [];
         function gtag(){ 
-          dataLayer.push(NextScript) 
+          dataLayer.push(arguments) 
         }
         gtag('js', new Date());
 
