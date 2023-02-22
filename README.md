@@ -10,14 +10,15 @@ this my blog about solidity language (using for smartcontract) & web3 technology
 #
 
 ### use this blog for your project 
-- clean source:
+- **way 1** -  this repo:clean source:
 ```node
 npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/mosi-arch/blog-src"
 ```
 
 
 ### how to install from this repo?
-- or this repo:
+- or **way 2** -  this repo
+- or **way 3** -  code in below:
 ```node
 npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/sol-app/blog"
 ```
