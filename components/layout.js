@@ -33,7 +33,7 @@ export default function Layout({ children }) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href='https://www.linkedin.com/in/moslem-abbasi/'>
+                <Link href='https://www.linkedin.com/in/lotus-chain/'>
                 <a className="nav-link block pr-2 lg:px-2 py-2 text-gray-600">Linkedin</a>
                 </Link>
               </li>
