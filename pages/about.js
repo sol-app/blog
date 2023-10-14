@@ -89,7 +89,7 @@ export default function Home({ posts }) {
 
                     <p class="mt-2 text-xs font-medium text-gray-500 sm:mt-0">
                     <a href="https://github.com/mosi-sol" class="underline hover:text-gray-700"> github </a> - 
-                    <a href="https://www.linkedin.com/in/moslem-abbasi/" class="underline hover:text-gray-700"> linkedin </a>
+                    <a href="https://www.linkedin.com/in/lotus-chain/" class="underline hover:text-gray-700"> linkedin </a>
                     </p>
                 </div>
                 </div>

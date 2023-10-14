@@ -74,7 +74,7 @@ export default function Home({ posts }) {
 
                             <div className="ml-3 flex flex-col-reverse sm:ml-6">
                             <dt className="text-sm font-medium text-blue-400 hover:text-blue-500 hover:font-bold">                                
-                                <a href='https://www.linkedin.com/in/moslem-abbasi/'>Linkedin</a>
+                                <a href='https://www.linkedin.com/in/lotus-chain/'>Linkedin</a>
                             </dt>
                             <dd className="text-xs text-gray-500">call me</dd>
                             </div>
